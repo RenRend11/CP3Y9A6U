@@ -1,10 +1,10 @@
 {
   "Hello": {
-    "Password": "World!"
+    "Password": "World!",
     "PCUser": "ferdinant"
   },
   "Bye": {
-    "Password": "Sayonara!"
+    "Password": "Sayonara!",
     "PCUser": ""
   }
 }
