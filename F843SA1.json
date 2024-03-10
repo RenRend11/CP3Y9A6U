@@ -1,4 +1,10 @@
 {
-  "Hello": "World!",
-  "Bye": "Sayonara!"
+  "Hello": {
+    "Password": "World!"
+    "PCUser": "ferdinant"
+  },
+  "Bye": {
+    "Password": "Sayonara!"
+    "PCUser": ""
+  }
 }
